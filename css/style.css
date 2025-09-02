@@ -1,0 +1,105 @@
+body {
+    background-color: #ECF2F5;
+    /* Flexbox para centralizar */
+    display: flex;
+    justify-content: center;  /* centraliza horizontal */
+    align-items: center;      /* centraliza vertical */
+    
+    /* Faz o body ter altura total da tela */
+    height: 100vh;
+    
+    /* Remove margens padrão do body */
+    margin: 0;
+    
+    /* Organiza conteúdo em coluna */
+    flex-direction: column;
+  }
+
+  h2{
+    font-size: 12px;
+    text-align: center;
+    color: #207FCF;
+}
+
+#nome{
+    width: 300px;              
+    margin: 10px auto 0 auto;  
+    display: block;            
+    background-color: transparent;
+    border: double 1px #207FCF;
+    padding: 10px 10px;
+    box-sizing: border-box;    
+    border-radius: 50px;
+}
+
+#email{
+    width: 300px;              
+    margin: 10px auto 0 auto;  
+    display: block;            
+    background-color: transparent;
+    border: double 1px #207FCF;
+    padding: 10px 10px;
+    box-sizing: border-box;    
+    border-radius: 50px;
+}
+
+
+label{
+    
+    display: block;
+    margin-top: 8px;
+    color: #207FCF;
+}
+
+#aniversario{
+    width: 300px;              
+    margin: 10px auto 0 auto;  
+    display: block;            
+    background-color: transparent;
+    border: double 1px #207FCF;
+    padding: 10px 10px;
+    box-sizing: border-box;    
+    border-radius: 50px;
+}
+
+#senha{
+    width: 300px;              
+    margin: 10px auto 0 auto;  
+    display: block;            
+    background-color: transparent;
+    border: double 1px #207FCF;
+    padding: 10px 10px;
+    box-sizing: border-box;    
+    border-radius: 50px;
+}
+
+#confirmaSenha{
+    width: 300px;              
+    margin: 10px auto 0 auto;  
+    display: block;            
+    background-color: transparent;
+    border: double 1px #207FCF;
+    padding: 10px 10px;
+    box-sizing: border-box;    
+    border-radius: 50px;
+}
+
+button{
+    width: 300px;              
+    margin: 10px auto 0 auto;  
+    display: block;            
+    background-color: #207FCF;
+    border: double 1px #207FCF;
+    padding: 4px 5px;
+    box-sizing: border-box;    
+    border-radius: 50px;
+}
+
+span{
+    color: #207FCF;
+}
+
+
+.borda-erro{
+    border: 2px solid red;
+}
