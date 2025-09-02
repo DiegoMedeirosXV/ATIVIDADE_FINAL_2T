@@ -16,81 +16,82 @@
     </div>
 
     <form action="" id="usuario-form" name="usuario-form">
-            <div>
-        <label for="nome">Nome</label>
-        <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required maxlength="30">
-            </div> 
+        <div>
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required maxlength="30">
+        </div> 
 
-            <div>
-        <label for="e-mail">E-mail</label>
-        <input type="email" name="e-mail" id="email" placeholder="email@exemplo.com" required maxlength="30">
-            </div>
+        <div>
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="email@exemplo.com" required maxlength="30">
+        </div>
 
-            <div> 
-        <label for="data">Date de Nascimento</label>
-        <input type="date" name="data" id="aniversario" placeholder="" required maxlength="30">
-            </div> 
-
-                    <div> 
-                <label for="senha">Senha</label>
-                <input type="password" name="senha" id="senha" placeholder="Digite sua senha" required minlength="6" maxlength="20">
-                    </div>
+        <div> 
+            <label for="data">Date de Nascimento</label>
+            <input type="date" name="data" id="aniversario" placeholder="" required maxlength="30">
+        </div> 
+        <div> 
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" id="senha" placeholder="Digite sua senha" required minlength="6" maxlength="20">
+        </div>
                 
-                    <div>
-                <label for="confirmaSenha">Confirmar Senha</label>
-                <input type="password" name="confirmaSenha" id="confirmaSenha" required minlength="6" maxlength="20" placeholder="De 6 a 20 caracteres">
-                    </div>   
+        <div>
+            <label for="confirmaSenha">Confirmar Senha</label>
+            <input type="password" name="confirmaSenha" id="confirmaSenha" required minlength="6" maxlength="20" placeholder="De 6 a 20 caracteres">
+        </div>   
 
-            <div class="opcao">  <!--inicio da 'DIV OPCAO'-->
-                <div> <!-- inicio da 'DIV 1ª OPCAO' -->
-        <label for="opcao">OPCAO DE PAGAMENTOS</label>   <br>
-        <input type="radio" name="opcao" id="opcao1" required minlength="6" maxlength="20" placeholder="" value="plano1">
-        <span>1ª opção: Entrada + 5 anos</span>
-                </div>  <!-- final da 'DIV 1ª OPCAO' -->
+        <div class="opcao">  <!--inicio da 'DIV OPCAO'-->
+            <div> <!-- inicio da 'DIV 1ª OPCAO' -->
+                <label for="opcao">OPCAO DE PAGAMENTOS</label>   
+                <br>
+                <input type="radio" name="opcao" id="opcao1" value="plano1">
+                <span>1ª opção: Entrada + 5 anos</span>
+            </div>  <!-- final da 'DIV 1ª OPCAO' -->
 
-                <div> <!-- inicio da 'DIV 2ª OPCAO' -->
-        <label for="opcao"></label>
-        <input type="radio" name="opcao" id="opcao2" required minlength="6" maxlength="20" placeholder="" value="plano2">
-        <span>2ª opção: Entrada + 3 anos</span>        
-                </div>  <!-- final da 'DIV 2ª OPCAO' -->
+            <div> <!-- inicio da 'DIV 2ª OPCAO' -->
+                <label for="opcao"></label>
+                <input type="radio" name="opcao" id="opcao2" value="plano2">
+                <span>2ª opção: Entrada + 3 anos</span>        
+            </div>  <!-- final da 'DIV 2ª OPCAO' -->
 
-                <div>  <!-- inicio da 'DIV 3ª OPCAO' -->
-        <label for="opcao"></label>
-        <input type="radio" name="opcao" id="opcao3" required minlength="6" maxlength="20" placeholder="" value="plano3">
-        <span>3ª opção: Pagar 2 parcelas em 1 pagamento</span>
-                </div>  <!-- final da 'DIV 3ª OPCAO' -->
-
-            </div>    <br>
-
-
-            <div class="modalidade"> <!--inicio da 'DIV MODALIDADE'-->
-                <div> <!--inicio da DIV CARRO-->
-        <label for="modalidade">Modalidades de Veículos</label> <br>
-        <input type="checkbox" name="modalidade" id="carro" required minlength="6" maxlength="20" placeholder="" value="CARRO">
-        <span>Carro</span>
-                </div>  <!--final da 'DIV CARRO'-->
-
-                <div> <!--inicio da DIV MOTO-->
-        <label for="modalidade"></label>
-        <input type="checkbox" name="modalidade" id="moto" required minlength="6" maxlength="20" placeholder=""  value="MOTO">
-        <span>Moto</span>
-                </div>  <!--final da 'DIV MOTO'-->
-
-                <div>  <!--inicio da 'DIV CAMINHAO'-->
-        <label for="modalidade"></label>
-        <input type="checkbox" name="modalidade" id="caminhao" required minlength="6" maxlength="20" placeholder=""  value="CAMINHAO">
-        <span>Caminhão</span>  <!--final da 'DIV CAMINHAO'-->
-                </div>
-
-            </div> <!--final da 'DIV MODALIDADE'-->
+            <div>  <!-- inicio da 'DIV 3ª OPCAO' -->
+                <label for="opcao"></label>
+                <input type="radio" name="opcao" id="opcao3" value="plano3">
+                <span>3ª opção: Pagar 2 parcelas em 1 pagamento</span>
+            </div>  <!-- final da 'DIV 3ª OPCAO' -->
+        </div>    
+        <br>
 
 
+        <div class="modalidade"> <!--inicio da 'DIV MODALIDADE'-->
+            <div> <!--inicio da DIV CARRO-->
+                <label for="modalidade">Modalidades de Veículos</label> 
+                <br>
+                <input type="checkbox" name="modalidade" id="carro" required minlength="6" maxlength="20" placeholder="" value="CARRO">
+                <span>Carro</span>
+            </div>  <!--final da 'DIV CARRO'-->
 
-            <div class="button">  <br>
-        <button name="botao-enviar" type="button" onclick="enviarForm()"> <p style="color: #ECF2F5;">Enviar</p>
-            <a href="resultados.html"></a>   
-        </button>
+            <div> <!--inicio da DIV MOTO-->
+                <label for="modalidade"></label>
+                <input type="checkbox" name="modalidade" id="moto" required minlength="6" maxlength="20" placeholder=""  value="MOTO">
+                <span>Moto</span>
+            </div>  <!--final da 'DIV MOTO'-->
+
+            <div>  <!--inicio da 'DIV CAMINHAO'-->
+                <label for="modalidade"></label>
+                <input type="checkbox" name="modalidade" id="caminhao" required minlength="6" maxlength="20" placeholder=""  value="CAMINHAO">
+                <span>Caminhão</span>  <!--final da 'DIV CAMINHAO'-->
             </div>
+
+        </div> <!--final da 'DIV MODALIDADE'-->
+
+
+
+        <div class="button">  <br>
+            <button name="botao-enviar" type="button" onclick="enviarForm()"> <p style="color: #ECF2F5;">Enviar</p>
+            <a href="resultados.html"></a>   
+            </button>
+        </div>
 
     </form>
 

@@ -23,7 +23,7 @@ function enviarForm() {
 
 //radios 
     let opcoes = document.getElementsByName('opcao');
-    let opcao = null;
+    let opcao
 
     console.log(opcoes);
 
@@ -36,15 +36,15 @@ function enviarForm() {
 
 // checkboxes
 
-let intereses = [];
+let modalidade = [];
 let checkboxes = document.getElementsByName('modalidade')
 
 checkboxes.forEach(element => {
     if (element.checked) {
-        intereses.push(element.value)
+        modalidade.push(element.value)
     }
 
-    console.log(intereses)
+    console.log(modalidade)
 })
 
 
